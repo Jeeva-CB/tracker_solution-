@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ec1b923f-9f14-4179-8ffa-3f9bf48e0f17" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.0.0.111/ITService/ITService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ITService.xsd" MetadataType="Schema" ID="7821eb5a-b7fd-4a60-a899-1e108f10cf45" SourceId="1" SourceUrl="http://10.0.0.111/ITService/ITService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ITService.disco" MetadataType="Disco" ID="3532f16e-71cf-4673-a187-56ef87a5b636" SourceId="1" SourceUrl="http://10.0.0.111/ITService/ITService.svc?disco" />
+    <MetadataFile FileName="ITService1.xsd" MetadataType="Schema" ID="d56ee603-f1d3-47b8-ae6f-1e6f4266a3b4" SourceId="1" SourceUrl="http://10.0.0.111/ITService/ITService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ITService2.xsd" MetadataType="Schema" ID="d0d96549-c153-4800-b5e6-b19484509f13" SourceId="1" SourceUrl="http://10.0.0.111/ITService/ITService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ITService.wsdl" MetadataType="Wsdl" ID="d1d6a087-127c-44f4-9f99-707f6e4eb023" SourceId="1" SourceUrl="http://10.0.0.111/ITService/ITService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
